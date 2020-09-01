@@ -1,0 +1,73 @@
+        body {
+            background-color: rgb(230, 215, 130);
+        }
+        
+        h3 {
+            color: rgba(8, 141, 165, 1);
+            margin-left: 10%;
+            text-shadow: 2px .5px 4px rgba(0, 0, 0, 0.6);
+        }
+        /*-------------------------------------------------------------------------------------
+select all squares in the array
+---------------------------------------------------------------------------------------*/
+        /*----------------------------------------------------------------------------------
+select all squares paragraphs in the array
+---------------------------------------------------------------------------------*/
+        
+        .squares:nth-child(-n+17) p {
+            font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+            font-size: 2em;
+            font-weight: 900;
+            text-align: center;
+            margin: 0;
+            text-shadow: 2px 5px 4px rgba(0, 0, 0, 0.8);
+        }
+        /*------------------------------------------------------------------------------
+individually select a square in the array
+--------------------------------------------------------------------------------*/
+        /*-------------------------------------------------
+hover effects
+---------------------------------------------------*/
+        
+        .squares:nth-child(1):hover {
+            background: #3f8364;
+        }
+        
+        .squares:nth-child(3):hover {
+            background: #3c5681;
+        }
+        
+        .squares:nth-child(5):hover {
+            background: #6f3d7c;
+        }
+        
+        .squares:nth-child(7):hover {
+            background: #64813e;
+        }
+        
+        .squares:nth-child(9):hover {
+            background: #858644;
+        }
+        
+        .squares:nth-child(9):hover {
+            background: #855d42;
+        }
+        
+        .squares:nth-child(11):hover {
+            background: #7a3e61;
+        }
+        
+        .squares:nth-child(13):hover {
+            background: #3a3e7c;
+        }
+        
+        .squares:nth-child(15):hover {
+            background: #456885;
+        }
+        
+        .squares:nth-child(17):hover {
+            background: #438b7f;
+        }
+        /*------------------------------------------------
+animation effects
+--------------------------------------------------*/
